@@ -1,8 +1,7 @@
 
 <div id="top"></div>
-            
-[![MIT License][license-shield]](https://github.com/Atugriceri/e-commerce-react-app/blob/main/LICENSE)
-[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/alpertugriceri/)
+
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/shivam-mishra-sde/)
 
 
 <br />
@@ -16,7 +15,7 @@
      Shopping site project that includes basic processes such as adding to cart, adding to favorites, product listing and product detail page, which should be on an e-commerce site.
     <br />
     <br />
-    <a href="https://atugriceri-e-commerce-react-app.netlify.app/">View Demo</a>
+    <a href="https://shiva-commerce.netlify.app/">View Demo</a>
   </p>
 </div>
 
@@ -32,8 +31,7 @@
     </li>
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>    
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -41,8 +39,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-![PROJECT_SCREENSHOT_01](./src/Assets/Screenshots/Screenshot_01.jpg)
 
 An e-commerce site with basic shopping functions. You can list the products according to their categories, go to the detail page of the relevant product, add the product to your favorites and to the cart, together with the captured product data.
 
@@ -90,7 +86,7 @@ The project was developed in conjunction with React.js, including Context, Hooks
 
 You can list the products by clicking on the categories, add and remove the products to the cart and favorites. You can view the products you have added to the cart and favorites on the cart and favorites pages.
 
-[See it live!](https://atugriceri-e-commerce-react-app.netlify.app/)
+[See it live!](https://shiva-commerce.netlify.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -99,26 +95,19 @@ You can list the products by clicking on the categories, add and remove the prod
 - [x] Fetching product data, listing by categories and product detail page.
 - [x] Add to favorites and favorites page.
 - [x] Add to cart and cart page.
-- [ ] Responsive Design
-      - [ ] Navbar
-      - [ ] Card
-- [ ] Complete the sign in and sign up process.
-- [ ] Create order page.
+- [x] Responsive Design
+      - [x] Navbar
+      - [x] Card
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ## Contact
 
-Alper Tugriçeri - [Linkedin](https://www.linkedin.com/in/alpertugriceri/) - alpertugriceri@gmail.com
+Shivam Mishra - [Linkedin](https://www.linkedin.com/in/shivam-mishra-sde/) - shivammmishra7@gmail.com
 
-Project Link: [https://github.com/Atugriceri/e-commerce-react-app](https://github.com/Atugriceri/e-commerce-react-app)
+Project Link: [https://shiva-commerce.netlify.app/](https://shiva-commerce.netlify.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -136,3 +125,4 @@ Project Link: [https://github.com/Atugriceri/e-commerce-react-app](https://githu
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
