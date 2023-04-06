@@ -1,10 +1,13 @@
 .nav {
   @apply
   flex
-  justify-between
-  bg-transparent
+  justify-between  
   p-6
   z-10
+  w-auto
+}
+.barnav{
+  
 }
 
 .logo {
@@ -12,6 +15,7 @@
   flex
   items-center
   flex-shrink-0	
+  ml-8
 }
 
 .logo .link {
@@ -27,10 +31,10 @@
   @apply
   flex
   py-2
-  max-w-7xl
+  max-w-full
   mx-auto
-  bg-transparent
-  rounded-lg
+  bg-pink-400
+  rounded-md
   overflow-x-auto
   sm:justify-start
   md:justify-center
@@ -58,8 +62,8 @@
   font-family: 'Oswald', sans-serif;
   @apply
   text-3xl 
-  text-blue-400 
-  ml-4 
+  text-blue-200 
+  ml-2 
   my-auto
   tracking-widest
   
@@ -82,10 +86,10 @@
 .logoBox {
   @apply 
   bg-gradient-to-b 
-  from-pink-200 
-  via-pink-200 
-  to-pink-200 
-  w-[10.2rem] 
+  from-pink-400 
+  via-pink-500 
+  to-pink-600 
+  w-[5.6rem] 
   h-10 
   rounded-md
 }

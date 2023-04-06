@@ -15,11 +15,11 @@ const Navbar = () => {
       <Disclosure as="nav">
         {({ open }) => (
           <>
-            <div className="max-w-7xl mx-auto pt-4 pb-6 px-4">
+            <div className="bg-red-500 max-w-7.5xl mx-auto pt-4 pb-6 px-4">
               <div className="relative flex items-center justify-between h-16">
                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
-                  <Disclosure.Button className="inline-flex items-center justify-center p-2">
+                  <Disclosure.Button className="inline-flex items-center justify-center p-2 ml-0">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
                       <XIcon className="block h-9 w-9" aria-hidden="true" />
@@ -32,17 +32,17 @@ const Navbar = () => {
                   <div className={styles.logo}>
                     <Link className={styles.link} to="/">
                       <div className={styles.logoBox}>
-                      <h1 className={styles.logoText}>S-Comm</h1>
+                      <h1 className={styles.logoText}>Shiva</h1>
                       </div>
                     </Link>
                   </div>
                   <div className="hidden sm:block sm:ml-6"></div>
                 </div>
                 <div className="inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">                  
-                <div className="ml-3 relative">
+                <div className="relative">
                     <WishListButton/>
                   </div>                 
-                  <div className="ml-3 relative">
+                  <div className="relative">
                     <CartButton />
                   </div>                 
                 </div>
@@ -56,8 +56,7 @@ const Navbar = () => {
                       name,
                       link,
                       icon,
-                      underlined,
-                      loggedIn,
+                      underlined,                     
                       onclick,
                     }) => (
                       <Link 
