@@ -1,0 +1,18 @@
+.cardGroup {
+  @apply
+  flex 
+  flex-wrap
+  max-w-7xl
+  mx-auto
+  my-4
+}
+.sort{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  align-items:center;
+  margin: auto;
+  margin-left: 4%;
+  width: 100%;  
+  }

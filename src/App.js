@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import { Routes, Route } from 'react-router-dom'
+import Navbar from './Components/Navbar'
+import Products from './Pages/Products'
+import Error404 from './Pages/Error404'
+import Container from './Components/Container'
+import ProductDetail from './Pages/ProductDetail'
+import Cart from './Pages/Cart'
+import Favorites from './Pages/Favorites'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container mx-auto">
+      <Navbar />
+      <Container>
+        <Routes>
+          <Route path="/" exact element={<Products />} />
+          <Route path="/:category_id" element={<Products />} />
+          <Route path="/product/:product_id" element={<ProductDetail />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/favorites" element={<Favorites />} />          
+          <Route path="*" element={<Error404 />} />
+        </Routes>
+      </Container>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
